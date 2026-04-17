@@ -1,0 +1,168 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* LEFT */
+.left-section {
+    background-color: #7b97b2;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+/* RIGHT */
+.right-section {
+    background-color: #e5d3bd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* BOX */
+.login-box {
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+}
+
+/* TITLE */
+#roleTitle {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* SELAMAT DATANG */
+.welcome-text {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* INFO */
+.info-text {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+/* INPUT */
+.form-control {
+    background-color: #d8c6b2;
+    border: none;
+    border-bottom: 2px solid #333;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid black;
+}
+
+/* BUTTON */
+.btn-login {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-login:hover {
+    background-color: #333;
+}
+
+/* LUPA PASSWORD */
+.forgot-text {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.link-text {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.link-text:hover {
+    text-decoration: underline;
+}
+
+/* ADMIN BAWAH KANAN */
+.admin-text {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 12px;
+}
+
+/* TOGGLE */
+.toggle {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* TYPOGRAPHY */
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .left-section {
+        height: auto;
+        text-align: center;
+    }
+
+    .right-section {
+        height: auto;
+        padding: 40px;
+    }
+
+    .admin-text {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+.link-text {
+    color: #3D3D3D !important; 
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+/* setelah diklik */
+.link-text:visited {
+    color: #3D3D3D;
+}
+
+.link-text:hover {
+    color: #000;
+    letter-spacing: 0.3px;
+}
+
+/* saat hover */
+.link-text:hover {
+    color: #000;
+    text-decoration: underline;
+}
